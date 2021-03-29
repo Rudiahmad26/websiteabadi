@@ -1,0 +1,45 @@
+
+.slider b{
+    font-size: 58px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.slider h5,
+.clients h3,
+.nav-wrapper a{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container{
+    height: 20%;
+}
+.parallax img{
+    filter: grayscale(0.1);
+    opacity: 0.7 !important;
+}
+
+footer, section{
+    padding: 20px 0;
+}
+
+.clients img{
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
+    margin-top: 10px;
+}
+.portofolio img{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width : 1000px){
+    .nav-wrapper a{
+    font-size: 18px;
+    }    
+    .slider b{
+        font-size: 26px;
+    }
+    .portofolio img{
+        margin-top: 5px;
+    }
+}
+
